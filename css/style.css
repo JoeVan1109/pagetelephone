@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap");
+@media screen and (max-width: 1100px) {
+  .bloc-violet {
+    position: relative;
+    background-color: #24053E;
+    width: 100%;
+    height: 500px;
+    border-radius: 45% 55% 50% 50%/0% 0% 22% 24%;
+    border: solid;
+  }
+  .bloc-1 {
+    position: absolute;
+    bottom: 380px;
+  }
+  .head {
+    margin-left: 75px;
+  }
+  .btn-1 {
+    margin-left: 672px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+    background-color: transparent;
+    color: #FFFFFF;
+  }
+  .btn-1:hover {
+    border-bottom: 2px solid #44FFA1;
+    color: #44FFA1;
+  }
+  .btn-2 {
+    margin-left: 433px;
+    border: none;
+    color: #24053E;
+    background-color: #44FFA1;
+    width: 104px;
+    height: 46px;
+  }
+  .btn-2:hover {
+    background-color: #24053E;
+    color: #44FFA1;
+    transition: color 1s;
+    transition: background-color 1s;
+    border: solid #44FFA1;
+  }
+  h1 {
+    font-family: "Playfair Display", serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+  }
+  .telephone {
+    position: absolute;
+    width: 500px;
+    left: 333px;
+    top: 300px;
+  }
+  .zigouigoui-gauche {
+    position: absolute;
+    right: 755px;
+  }
+  .zigouigoui-droite {
+    position: absolute;
+    left: 957px;
+    bottom: -86px;
+  }
+  .bloc-2 {
+    position: relative;
+    margin-top: 184px;
+    display: flex;
+    text-align: center;
+  }
+  .sous-bloc {
+    text-align: center;
+  }
+  .sous-titre {
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #24053E;
+  }
+  .text {
+    font-family: "Roboto", sans-serif;
+    color: #24053E;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  .chiffre {
+    border: 2px solid #24053E; /* Ajustez l'épaisseur de la bordure selon vos besoins */
+    border-radius: 50%;
+    width: 30px; /* Ajustez la largeur et la hauteur selon vos besoins */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    margin-left: 155px;
+  }
+  .profil {
+    width: 280px;
+    position: relative;
+    left: 162px;
+    top: 177px;
+  }
+  .bloc-3 {
+    background-color: #24053E;
+    position: absolute;
+    left: 400px;
+    width: 523px;
+    padding: 40px;
+  }
+  h2 {
+    color: #FFFFFF;
+  }
+  .text-2 {
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+  }
+  .zigouigoui-gauche-2 {
+    width: 100px;
+    position: absolute;
+    left: 436px;
+  }
+  .btn-3 {
+    border: none;
+    color: #24053E;
+    background-color: #44FFA1;
+    width: 147px;
+    height: 46px;
+    font-weight: 800;
+  }
+  footer {
+    position: relative;
+    top: 352px;
+    text-align: center;
+  }
+  .footer-bloc-1 {
+    margin-bottom: 20px;
+  }
+  .icone {
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

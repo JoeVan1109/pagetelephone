@@ -1,0 +1,174 @@
+@import "./_base/typography";
+@import "./_layout/footers";
+@import "./_layout/header";
+@import "./_utils/functions";
+@import "./_utils/mixins";
+@import "./_utils/placeholders";
+@import  "./_utils/variables";
+
+@media  screen and (max-width: 1100px) {
+    
+
+
+//!HEADER---------------------------------------------------------------------
+.bloc-violet{
+    position: relative;
+    background-color: $darkblue;
+    width: 100%;
+    height: 500px;
+    border-radius: 45% 55% 50% 50% / 0% 0% 22% 24%;
+    border: solid;
+}
+.bloc-1{
+    position: absolute;
+    bottom: 380px;
+}
+.head{
+    margin-left: 75px;
+    
+}
+//* BLOC BOUTON-------------------------------------------------------------
+.btn-1{
+    margin-left: 672px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+    background-color: transparent;
+    color: $white;
+}
+.btn-1:hover{
+    border-bottom: 2px solid $green;
+    color: $green;
+}
+.btn-2{
+    margin-left: 433px;
+    border: none;
+    color: $darkblue;
+    background-color: $green;
+    width: 104px;
+    height: 46px;
+}
+.btn-2:hover{
+    background-color: $darkblue;
+    color: $green;
+    transition: color 1s;
+    transition: background-color 1s;
+    border: solid $green;
+}
+
+
+//*TITRE---------------------------------------------------------------------
+h1{
+    font-family: 'Playfair Display', serif;
+    color: $white;
+    text-align: center;
+    font-size: 50px;
+}
+
+//*IMAGE HEADER--------------------------------------------------------------
+.telephone{
+    position: absolute;
+    width: 500px;
+    left: 333px;
+    top: 300px;
+    
+}
+.zigouigoui-gauche{
+    position: absolute;
+    right: 755px;
+}
+.zigouigoui-droite{
+    position: absolute;
+    left: 957px;
+    bottom: -86px;
+}
+
+//!BLOC MILIEU---------------------------------------------------------------
+
+.bloc-2{
+    position: relative;
+    margin-top: 184px;
+    display: flex;
+    text-align: center;
+}
+.sous-bloc{
+    text-align: center;
+}
+.sous-titre{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: $darkblue;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    color: $darkblue;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.chiffre{
+    border: 2px solid $darkblue; /* Ajustez l'épaisseur de la bordure selon vos besoins */
+    border-radius: 50%;
+    width: 30px; /* Ajustez la largeur et la hauteur selon vos besoins */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    margin-left: 155px;
+}
+
+
+//!BLOC FIN------------------------------------------------------------------------
+.profil{
+    width: 280px;
+    position: relative;
+    left: 162px;
+    top: 177px;
+}
+
+.bloc-3{
+    background-color: $darkblue;
+    position: absolute;
+    left: 400px;
+    width: 523px;
+    padding: 40px;
+}
+h2{
+    color: $white;
+}
+.text-2{
+    font-family: 'Roboto', sans-serif;
+    color: $white;
+}
+.zigouigoui-gauche-2{
+    width: 100px;
+    position: absolute;
+    left:436px;
+
+}
+.btn-3{
+    border: none;
+    color: $darkblue;
+    background-color: $green;
+    width: 147px;
+    height: 46px;
+    font-weight: 800;
+}
+
+//!FOOTER---------------------------------------------------------------------------------
+
+footer{
+    position: relative;
+    top: 352px;
+    text-align: center;
+}
+.footer-bloc-1{
+    margin-bottom: 20px;
+}
+.icone{
+    padding: 10px;
+}
+
+
+}
